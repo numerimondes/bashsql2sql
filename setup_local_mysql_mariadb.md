@@ -1,3 +1,50 @@
+# Overview
+
+This guide provides step-by-step instructions for setting up MariaDB, creating a new database and user, and installing phpMyAdmin on your server. MariaDB is a powerful open-source database server, while phpMyAdmin is a web-based tool for managing MariaDB databases.
+
+With this setup, you will:
+
+- **Install and configure MariaDB** on your server.
+- **Create a new database** called `numerimondes`.
+- **Create a new user** `greatmaster` and grant access to the `numerimondes` database.
+- **Install phpMyAdmin** for easy database management via a web interface.
+
+## Why Set Up MariaDB and phpMyAdmin?
+
+Setting up MariaDB and phpMyAdmin on your server is a common practice for managing relational databases efficiently. Here’s why this setup is useful:
+
+- **Database Management**: 
+    MariaDB helps you store, manage, and retrieve data for your applications. phpMyAdmin provides a user-friendly web interface to manage this data easily.
+
+- **Centralized Data Storage**: 
+    MariaDB serves as a central repository for your data, ensuring it is structured, secure, and scalable as your application grows.
+
+- **Security and Access Control**: 
+    MariaDB allows you to create users with specific access privileges, enhancing database security and ensuring that only authorized users can interact with the data.
+
+- **Scalability**: 
+    MariaDB supports features like replication and clustering, enabling horizontal scaling and ensuring high availability as your data grows.
+
+- **Ease of Use**: 
+    phpMyAdmin simplifies database management tasks like creating tables, inserting data, and running queries with a graphical interface.
+
+## Utility of this Setup
+
+- **For Developers**: 
+    It provides a powerful database server and a simple interface to manage databases, allowing you to focus on your application.
+
+- **For Businesses**: 
+    It enables secure, centralized management of business data, supporting tasks like inventory management and customer relationship management (CRM).
+
+- **For Web Hosting**: 
+    MariaDB serves as the backend for websites or web applications, and phpMyAdmin helps you manage content efficiently.
+
+---
+
+Follow the instructions below to complete the setup.
+
+---
+
 # Install MariaDB
 
 1. **Update the system and install MariaDB**:
